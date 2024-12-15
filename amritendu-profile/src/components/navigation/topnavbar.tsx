@@ -2,9 +2,8 @@ import { useState, useEffect } from 'react';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import profileLogo from '/Photo.jpg'
 
-export default function TopNavbar() {
+export default function TopNavbar({onLinkChanged} : any) {
 
   const [activeLink, setActiveLink] = useState('home');
   const [scrolled, setScrolled] = useState(false);
@@ -23,13 +22,14 @@ export default function TopNavbar() {
 
   const onUpdateActiveLink = (value: string) => {
     setActiveLink(value);
+    onLinkChanged(value);
   }
 
   return (
     <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
-          <img src={profileLogo} alt="Profile logo" />
+          <label>Amritendu Panja</label>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <span className="navbar-toggler-icon"></span>

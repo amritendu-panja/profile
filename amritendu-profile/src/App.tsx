@@ -5,31 +5,42 @@ import { Col, Container, Row } from 'react-bootstrap';
 import Footer from './components/footer/footer';
 import Home from './components/home/home';
 import ContactMe from './components/contactme/contactme';
+import { useState } from 'react';
+import Skills from './components/skills/skills';
+import Projects from './components/projects/projects';
 
 function App() {
-  
+  const [activeLink, setActiveLink] = useState('home');
 
+  const onUpdateActiveLink = (value: string) => {
+    setActiveLink(value);
+  }
+  
   return (
     <>
       <Container>
         <Row className="justify-content-md-center">
-          <TopNavbar />
+          <TopNavbar onLinkChanged={onUpdateActiveLink} />
         </Row>
-        <Row>
-          <Col></Col>
-          <Col md="auto">
-            <Home />
-          </Col>
-          <Col md={3}>
-            <ContactMe />
-          </Col>
+        <Row>          
+          <Col>
+          {
+            activeLink === 'home' ? <Home /> : 
+            activeLink === 'skills' ? <Skills />:
+            activeLink === 'projects'? <Projects /> :
+            null
+          }            
+          </Col>          
         </Row>
         <Row className="justify-content-md-center">
-          <Footer />
+          <Col md="auto">
+            <ContactMe />
+            <Footer />
+          </Col>
+          
         </Row>
       </Container>
     </>
   )
 }
-
 export default App
