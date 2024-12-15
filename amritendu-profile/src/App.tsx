@@ -1,5 +1,3 @@
-import { useState } from 'react'
-import profileLogo from '/Photo.jpg'
 import './App.css'
 import TopNavbar from './components/navigation/topnavbar'
 import 'bootstrap/dist/css/bootstrap.min.css';
