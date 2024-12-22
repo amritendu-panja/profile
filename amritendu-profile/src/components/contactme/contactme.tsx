@@ -1,14 +1,12 @@
+import { ListGroup } from "react-bootstrap";
+import gmail from '/gmail.png';
+import outlook from '/outlook.png'
+
 export default function ContactMe() {
   return (
-    <div className="contact-me">
-      <div className="contact-me-container">
-        <div className="contact-me-content">          
-          <ul>
-            <li>amritendu.panja@gmail.com</li>
-            <li>amritendu.panja@hotmail.com</li>
-          </ul>
-        </div>
-      </div>
-    </div>
+    <ListGroup>
+      <ListGroup.Item><img src={gmail} className="footer-mail-icon"/> amritendu.panja@gmail.com</ListGroup.Item>
+      <ListGroup.Item><img src={outlook} className="footer-mail-icon"/> amritendu.panja@hotmail.com</ListGroup.Item>
+    </ListGroup>
   );
 }

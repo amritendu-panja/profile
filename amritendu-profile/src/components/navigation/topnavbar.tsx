@@ -34,7 +34,7 @@ export default function TopNavbar({onLinkChanged} : any) {
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
-        <Navbar.Collapse id="basic-navbar-nav">
+        <Navbar.Collapse id="basic-navbar-nav justify-content-end">
           <Nav className="justify-content-end">
             <Nav.Link href="#home" 
               className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
