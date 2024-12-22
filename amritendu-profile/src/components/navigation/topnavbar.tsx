@@ -26,7 +26,7 @@ export default function TopNavbar({onLinkChanged} : any) {
   }
 
   return (
-    <Navbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <Navbar variant='' expand="lg" className={scrolled ? "scrolled" : ""}>
       <Container>
         <Navbar.Brand href="#home">
           <label>Amritendu Panja</label>
@@ -35,7 +35,7 @@ export default function TopNavbar({onLinkChanged} : any) {
           <span className="navbar-toggler-icon"></span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
-          <Nav className="me-auto">
+          <Nav className="justify-content-end">
             <Nav.Link href="#home" 
               className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'}
               onClick={() => onUpdateActiveLink("home")}>
@@ -48,7 +48,19 @@ export default function TopNavbar({onLinkChanged} : any) {
             </Nav.Link>            
             <Nav.Link href="#projects" 
               className={activeLink === 'projects' ? 'active navbar-link' : 'navbar-link'}
-              onClick={() => onUpdateActiveLink("projects")}>Projects</Nav.Link>            
+              onClick={() => onUpdateActiveLink("projects")}>
+                Projects
+            </Nav.Link>
+            <Nav.Link href="#experience" 
+              className={activeLink === 'experience' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink("experience")}>
+                Experience
+            </Nav.Link>
+            <Nav.Link href="#education" 
+              className={activeLink === 'education' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink("education")}>
+                Education
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
