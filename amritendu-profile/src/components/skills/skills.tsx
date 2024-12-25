@@ -1,26 +1,50 @@
-import ListGroup from 'react-bootstrap/ListGroup';
 import SkillItem from '../skill-item/skill-item';
-import Skill from '../../models/Skill';
-import netcore_logo from '/netcore.png'
+import Card from 'react-bootstrap/Card';
+import skillJson from '../../assets/skills.json';
+import SkillList from '../../models/SkillList';
+import { v4 as uuidv4 } from 'uuid';
 
-export default function Skills() {
-  const skill_items = [];
-  const netcore_skill_item: Skill = new Skill(".Net Core", "Total Experience: 10 years", 7.5, "I have been working with .Net Core since its inception. I have worked on a wide range of projects using .Net Core. I have worked on both web, desktop applications, windows services, console applications, batch jobs etc.", netcore_logo);
-
-  skill_items.push(netcore_skill_item);
+export default function Skills() {  
+  const skill_list: SkillList[] = skillJson;
 
   return (
     <>
       <p>
         I have experience in a wide range of technologies, including:
       </p>
-      <ListGroup>
-        {
-          skill_items.map((skill_item) => {
-            return <SkillItem {...skill_item} />
-          })
-        }
-      </ListGroup>
+      {
+        skill_list.map((skill_list_item, index) => {
+          let marginClass = "mb-3";
+          if(index == skill_list.length - 1){
+            marginClass = "";
+          }
+          return (
+            <Card className={marginClass} key={uuidv4()}>
+              <Card.Header>
+                <h3>{skill_list_item.skill_type}</h3>
+              </Card.Header>
+              <Card.Body>                
+                  {
+                    skill_list_item.skills.map((skill, j_index) => {
+                      let need_hr = true;
+                      if(j_index == skill_list_item.skills.length - 1){
+                        need_hr = false;
+                      }
+                      return (
+                        <div key={uuidv4()}>
+                          <SkillItem {...skill} />
+                          {
+                            need_hr ? <hr /> : null
+                          }
+                        </div>
+                      )
+                    })
+                  }                
+              </Card.Body>
+            </Card>
+          )
+        })
+      }      
     </>
   );
 }

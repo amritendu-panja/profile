@@ -1,0 +1,402 @@
+[
+    {
+        "skill_type": "Languages",
+        "skills": [
+            {
+                "skill_name":"C#",
+                "heading": "Total Experience: 12+ years",
+                "level": 8,
+                "image_url": "/csharp.png",
+                "versions": ["7", "8", "9"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Javascript",
+                "heading": "Total Experience: 7 years",
+                "level": 5,
+                "image_url": "/javascript.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Typescript",
+                "heading": "Total Experience: 5 years",
+                "level": 6.5,
+                "image_url": "/typescript.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Java",
+                "heading": "Total Experience: 2 years",
+                "level": 6.5,
+                "image_url": "/java.png",
+                "versions": ["11.0.7"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Python",
+                "heading": "Total Experience: 3 years",
+                "level": 6,
+                "image_url": "/python.png",
+                "versions": ["3.7", "3.9"],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Technologies",
+        "skills": [
+            {
+                "skill_name":".Net Core",
+                "heading": "Total Experience: 12+ years",                
+                "level": 7.5,
+                "image_url": "/netcore.png",
+                "versions": ["3.0", "3.1", "5.0", "6.0", "7.0", "8.0"],
+                "bullets": ["Web", "Desktop", "Windows Service", "Console Application", "Multithreading"]
+            },
+            {
+                "skill_name":"Asp.Net Core",
+                "heading": "Total Experience: 10+ years",                
+                "level": 7,
+                "image_url": "/ASP.NET-Core-Logo.png",
+                "versions": ["3.1"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Web API",
+                "heading": "Total Experience: 10+ years",                
+                "level": 8.5,
+                "image_url": "/ASP.NET-Core-Logo.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Entity Framework Core",
+                "heading": "Total Experience: 6+ years",                
+                "level": 5,
+                "image_url": "",
+                "versions": ["7.0", "8.0"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Node.js",
+                "heading": "Total Experience: 1+ years",                
+                "level": 5,
+                "image_url": "/nodejs.png",
+                "versions": ["18.12.1"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Microsoft Silverlight",
+                "heading": "Total Experience: 4+ years",                
+                "level": 8.5,
+                "image_url": "",
+                "versions": ["4.0", "5.0"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Windows Presentation Foundation",
+                "heading": "Total Experience: 2+ years",                
+                "level": 4,
+                "image_url": "",
+                "versions": ["4.0"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Windows Communication Framework",
+                "heading": "Total Experience: 5+ years",                
+                "level": 6,
+                "image_url": "",
+                "versions": ["4.5"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Java Spring Boot Framework",
+                "heading": "Total Experience: 2 years",                
+                "level": 4,
+                "image_url": "/springboot.png",
+                "versions": ["4.5"],
+                "bullets": []
+            }
+        ]    
+    },
+    {
+        "skill_type": "Frontend",
+        "skills": [
+            {
+                "skill_name":"Angular",
+                "heading": "Total Experience: 6 years",
+                "level": 8.5,
+                "image_url": "/angular.png",
+                "versions": ["7", "8", "9", "11"],
+                "bullets": []
+            },
+            {
+                "skill_name":"JQuery",
+                "heading": "Total Experience: 7 years",
+                "level": 8,
+                "image_url": "/jquery.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"HTML",
+                "heading": "Total Experience: 12+ years",
+                "level": 6.5,
+                "image_url": "/html.png",
+                "versions": ["11.0.7"],
+                "bullets": []
+            },
+            {
+                "skill_name":"CSS",
+                "heading": "Total Experience: 7+ years",
+                "level": 6,
+                "image_url": "/css.png",
+                "versions": ["3.7", "3.9"],
+                "bullets": []
+            },
+            {
+                "skill_name":"Bing Maps",
+                "heading": "Total Experience: 7+ years",
+                "level": 8,
+                "image_url": "/bing.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Leaflet Maps",
+                "heading": "Total Experience: 4+ years",
+                "level": 8.5,
+                "image_url": "/leaflet.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Kendo UI Controls",
+                "heading": "Total Experience: 3+ years",
+                "level": 6,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Bootstrap",
+                "heading": "Total Experience: 2+ years",
+                "level": 6,
+                "image_url": "/bootstrap.png",
+                "versions": ["4", "5"],
+                "bullets": []
+            },
+            {
+                "skill_name":"React",
+                "heading": "Knowledge only (this website)",
+                "level": 5,
+                "image_url": "/react.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"React Bootstrap",
+                "heading": "Knowledge only (this website)",
+                "level": 3,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Databases",
+        "skills": [
+            {
+                "skill_name":"Microsoft Sql Server",
+                "heading": "Total Experience: 10 years",
+                "level": 8.5,
+                "image_url": "/sqlserver.png",
+                "versions": ["2016", "2019", "2021"],
+                "bullets": []
+            },
+            {
+                "skill_name":"PostgreSQL",
+                "heading": "Total Experience: 2 years",
+                "level": 6,
+                "image_url": "/postgresql.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"MongoDB",
+                "heading": "Knowledge only",
+                "level": 3,
+                "image_url": "/mongodb.png",
+                "versions": ["8"],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Design Patterns",
+        "skills": [
+            {
+                "skill_name":"SOLID Principals",
+                "heading": "",
+                "level": 5,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Dependency Injection",
+                "heading": "Total Experience: 5 years",
+                "level": 8,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"CQRS Pattern",
+                "heading": "Total Experience: 5 years",
+                "level": 8.5,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Mediator Pattern",
+                "heading": "Total Experience: 5 years",
+                "level": 8.5,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Repository Pattern",
+                "heading": "Total Experience: 5 years",
+                "level": 9,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Unit of Work Pattern",
+                "heading": "Total Experience: 5 years",
+                "level": 8.5,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Factory Pattern",
+                "heading": "Total Experience: 2 years",
+                "level": 7,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Testing",
+        "skills": [
+            {
+                "skill_name":"Unit Testing",
+                "heading": "Total Experience: 5 years",
+                "level": 5,
+                "image_url": "",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Mock Testing using Moq",
+                "heading": "Total Experience: 5 years",
+                "level": 7.5,
+                "image_url": "/moq.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Automation Testing using Selenium",
+                "heading": "Total Experience: 2 years",
+                "level": 5,
+                "image_url": "/selenium.png",
+                "versions": [],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Source Controls",
+        "skills": [
+            {
+                "skill_name":"Git",
+                "heading": "Total Experience: 7 years",
+                "level": 7,
+                "image_url": "/git.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"GitHub",
+                "heading": "Total Experience: 5 years",
+                "level": 8,
+                "image_url": "/github.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Azure DevOps",
+                "heading": "Total Experience: 5 years",
+                "level": 8.5,
+                "image_url": "/azure.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"BitBucket",
+                "heading": "Total Experience: 7 years",
+                "level": 5,
+                "image_url": "/bitbucket.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"GitLab",
+                "heading": "Total Experience: 2 years",
+                "level": 4,
+                "image_url": "/gitlab.png",
+                "versions": [],
+                "bullets": []
+            }
+        ]
+    },
+    {
+        "skill_type": "Editors",
+        "skills": [
+            {
+                "skill_name":"Visual Studio",
+                "heading": "Total Experience: 12+ years",
+                "level": 9,
+                "image_url": "/vs.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Visual Studio Code",
+                "heading": "Total Experience: 5 years",
+                "level": 8,
+                "image_url": "/vscode.png",
+                "versions": [],
+                "bullets": []
+            },
+            {
+                "skill_name":"Pycharm",
+                "heading": "Total Experience: 2 years",
+                "level": 5,
+                "image_url": "/pycharm.png",
+                "versions": [],
+                "bullets": []
+            }
+        ]
+    }
+]
