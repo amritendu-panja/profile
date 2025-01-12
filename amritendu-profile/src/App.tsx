@@ -8,6 +8,7 @@ import ContactMe from './components/contactme/contactme';
 import { useState } from 'react';
 import Skills from './components/skills/skills';
 import Projects from './components/projects/projects';
+import Experience from './components/experience/experience';
 
 function App() {
   const [activeLink, setActiveLink] = useState('home');
@@ -31,6 +32,7 @@ function App() {
                   activeLink === 'home' ? <Home /> : 
                   activeLink === 'skills' ? <Skills />:
                   activeLink === 'projects'? <Projects /> :
+                  activeLink === 'experience' ? <Experience /> :
                   null
                 }            
                 </Col>          

@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "company": "Capital Numbers Infotech Private Limited",
+        "position": "Senior Software Engineer",
+        "start_date": "7/2/2021",
+        "end_date": "",
+        "current": true,
+        "responsibilities": [
+            "Developing Web Applications using ASP.net MVC and Web API",
+            "Creating and Managing SQL Server Database objects like tables, stored procedures, functions, indexes",            
+            "Developing frontend Web UI using ASP.net Razor Pages",
+            "Developing applications using Angular 11 framework",
+            "Mentoring Junior Developers",
+            "unit testing using Xunit and Moq",
+            "Maintaining code quality, code coverage",
+            "Automation Testing using Selenium"
+        ]
+    },
+    {
+        "id": 2,
+        "company": "Cyberswift Infotech Private Limited",
+        "position": "Software Developer",
+        "start_date": "28/4/2011",
+        "end_date": "7/2/2021",
+        "current": false,
+        "responsibilities": [
+            "Developing Web Applications using ASP.net MVC and Web API with Bing™ Map v8 Control (JS/JQuery), Leaflet Map Control (Angular), OpenLayers Map Control",
+            "Creating and managing Web API Services hosted on self-hosting Owin Windows service, IIS or Nodejs",
+            "Creating and Managing SQL Server or Postgresql Database objects like tables, stored procedures, functions, indexes, spatial indexes",
+            "Developing frontend Web UI using jQuery, HTML and CSS",
+            "Developing applications using Angular 7/8/9 framework",
+            "Developing desktop applications using WPF",
+            "Securing applications or services using OAuth 2 security using IdentityServer or Keycloak Server"
+        ]
+    }
+]
