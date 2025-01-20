@@ -61,6 +61,16 @@ export default function TopNavbar({onLinkChanged} : any) {
               onClick={() => onUpdateActiveLink("education")}>
                 Education
             </Nav.Link>
+            <Nav.Link href="#personal" 
+              className={activeLink === 'personal' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink("personal")}>
+                Personal Details
+            </Nav.Link>
+            <Nav.Link href="#resume" 
+              className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
+              onClick={() => onUpdateActiveLink("resume")}>
+                Resume
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

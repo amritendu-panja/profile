@@ -27,17 +27,6 @@ export default function SkillItem(data: Skill) {
           }
           </Col>
         </Row>
-        {/* <Row>
-          <Col className='text-center'>
-          <ul className="list-inline">
-          {
-            data.bullets.map((bullet: string) => (
-              <li className="list-inline-item" key={uuidv4()}>{bullet}</li>
-            ))
-          }
-          </ul>
-          </Col>
-        </Row> */}
       </div>      
       <Badge bg="primary" pill>
         {data.level}

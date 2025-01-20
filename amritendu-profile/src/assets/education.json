@@ -1,0 +1,70 @@
+[
+    {
+        "category": "Academics",
+        "category_type": 1,
+        "items":[
+            {
+                "id": 1,
+                "name": "Madhyamik (Secondary)",
+                "board" :  "West Bengal Board of Secondary Education",
+                "year": "1999",
+                "marks": "530",
+                "percentage": "66.25%"
+            },
+            {
+                "id": 2,
+                "name": "Higher Secondary",
+                "board" :  "West Bengal Council of Higher Secondary Education",
+                "year": "2001",
+                "marks": "533",
+                "percentage": "63.30%"
+            },
+            {
+                "id": 3,
+                "name": "Graduation (English Honours)",
+                "board" :  "Calcutta University",
+                "year": "2004",
+                "marks": "359",
+                "percentage": "44.99%"
+            },
+            {
+                "id": 4,
+                "name": "Masters in Computer Application",
+                "board" :  "Amity University",
+                "year": "2022",
+                "marks": "",
+                "percentage": "CGPA - 7.28"
+            }
+        ]
+    },
+    {
+        "category": "Professional Qualifications",
+        "category_type": 2,
+        "items": [
+            {
+                "id": 1,
+                "name": "E-Diploma in Advanced Software Technology",
+                "board": "CMC LTD",
+                "year": "",
+                "marks": "",
+                "percentage": ""
+            },
+            {
+                "id": 2,
+                "name": "A+ Hardware Certification course",
+                "board": "Indian Institute of Hardware Technology LTD",
+                "year": "",
+                "marks": "",
+                "percentage": ""
+            },
+            {
+                "id": 3,
+                "name": "Network+ Certification course",
+                "board": "Indian Institute of Hardware Technology LTD",
+                "year": "",
+                "marks": "",
+                "percentage": ""
+            }
+        ]
+    }
+]
