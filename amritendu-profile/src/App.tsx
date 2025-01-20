@@ -11,7 +11,6 @@ import Projects from './components/projects/projects';
 import Experience from './components/experience/experience';
 import Education from './components/education/education';
 import PersonalDetails from './components/personal_details/personal_details';
-import resume_file from '/Amritendu_IT_resume.docx';
 
 function App() {
   const [activeLink, setActiveLink] = useState('home');
