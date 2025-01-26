@@ -1,0 +1,686 @@
+[
+    {
+        "heading": "PathPlanner",
+        "image": "",
+        "subheading": "Worked on PathPlanner project for Planiform 1983, Canada",        
+        "technologies": [
+            "C#",
+            ".net core 8",            
+            "Entity Framework Core",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Conflict detection between different paths",
+                "items": []
+            },
+            {
+                "name": "Resolving path Conflicts",
+                "items": []
+            },
+            {
+                "name": "Integration of Conflict Detection with the rest of the system",
+                "items": []
+            },
+            {
+                "name": "Unit testing, functional testing, maintaining code quality",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "Row Overtravel solution for HiveMind",
+        "image": "",
+        "subheading": "Worked on Row Overtravel solution for HiveMind for Planiform 1983, Canada",
+        "technologies": [
+            "C#",
+            ".net core 8",            
+            "Entity Framework Core",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Block and unblock path nodes when different robots do their jobs",
+                "items": []
+            },
+            {
+                "name": "make sure that the path is blocked so that other robots can detect the block and use other paths",
+                "items": []
+            },            
+            {
+                "name": "Unit testing, functional testing, maintaining code quality",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "Amount.com",
+        "image": "",
+        "subheading": "Worked on multiple projects namely Fusion, GroundWork, Operations Portal, GoldFinch, Fundation Application (Small and Medium Business Loan application portal) for Linear Financial Technologies Ltd (currently merged with Amount.com), USA",
+        "technologies": [
+            "Angular 11",
+            "Web API",
+            ".net core 5",
+            "Entity Framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Loan Application generation",
+                "items": []
+            },
+            {
+                "name": "Creating Web APIs for accessing different information of the applications",
+                "items": []
+            },
+            {
+                "name": "Fixing bugs, creating new features, maintain logs",
+                "items": []
+            },
+            {
+                "name": "Unit testing, code coverage, maintaining code quality",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "Smart Grid Maintenance Dashboard for Madhya Pradesh Government",
+        "image": "",
+        "subheading": "Worked on Smart Grid Maintenance Dashboard for State Electricty Board - Madhya Pradesh Government",
+        "technologies": [
+            "Angular 11",
+            "NgRx",
+            "OpenStreet Map",            
+            "SpringBoot",
+            "Java",
+            "PostGresql Database Server",
+            "POSTGIS"
+        ],
+        "modules": [            
+            {
+                "name": "Map display Module",
+                "items": [
+                    "Show City level polygons, roads, houses, vegetation on the map",
+                    "Show diffrent layers for different electricity carriers(wires), devices(transformers), stations on the map"                    
+                ]
+            },
+            {
+                "name": "Drawing Module",
+                "items": [
+                    "Enable supervisor users to draw and edit geometry shapes on map and do selections based on these shapes",
+                    "Enable Administtrative users to accept changes in the map by the supervisor users"
+                ]
+            },
+            {
+                "name": "Reporting Module",
+                "items": [
+                    "Enable reporting of connectivity issues in the wires, devices, stations",
+                    "Send appropriate notifications to Administrative users based on the connectivity status"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Fludemic",
+        "image": "",
+        "subheading": "Worked on Fludemic Health Application for Data Driven Health Inc, USA",
+        "technologies": [
+            "Angular 10",
+            "NgRx",
+            "OpenStreet Map",            
+            "Nodejs API Service",
+            "PostGresql Database Server"
+        ],
+        "modules": [            
+            {
+                "name": "Map display Module",
+                "items": [
+                    "Show USA zip polygons on the map",
+                    "Show diffrent layers for Covid-19 and Common Flu based on records on the map"                    
+                ]
+            },
+            {
+                "name": "Summary Module",
+                "items": [
+                    "Show summary as per map state",
+                    "Show statistics for Covid-19 and Common Flu based on records"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Claims Manager Application",
+        "image": "/us-core-landing-page-icon.png",
+        "subheading": "Worked on Claims Manager Application for United Fire Group (UFG) Insurance Company, USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "Angular 8",
+            "NgRx",
+            "Leaflet map",
+            "Leaflet Draw",
+            "Web API Service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Login Module",
+                "items": [
+                    "Identity server integration with code flow"
+                ]
+            },
+            {
+                "name": "Map display Module",
+                "items": [
+                    "Show USA zip polygons on the map",
+                    "Visualizing regions / territories defined by UFG",
+                    "Show claim records on the map",
+                    "Show details of records on claim records"
+                ]
+            },
+            {
+                "name": "Summary Module",
+                "items": [
+                    "Show summary as per map state",
+                    "Show claim selections and assignment operations"
+                ]
+            },
+            {
+                "name": "Drawing Module",
+                "items": [
+                    "Enable supervisor users to draw and edit geometry shapes on map and do selections based on these shapes"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "Claims Adjuster Application",
+        "image": "/gatecheck_icon.png",
+        "subheading": "Worked on Claims Adjuster Application for United Fire Group (UFG) Insurance Company, USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "Angular 6",
+            "NgRx",
+            "Leaflet map",
+            "Leaflet Draw",
+            "Web API Service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Login Module",
+                "items": [
+                    "Identity server integration with code flow"
+                ]
+            },
+            {
+                "name": "Map display Module",
+                "items": [
+                    "Show USA zip polygons on the map",
+                    "Visualizing regions / territories defined by UFG"                    
+                ]
+            },
+            {
+                "name": "Supervisor Module",
+                "items": [
+                    "Enable supervisors to define regions / territories",
+                    "Add states or zips to regions / territories"                    
+                ]
+            },
+            {
+                "name": "Summary Module",
+                "items": [
+                    "Show summary as per map state",
+                    "Show claim selections and assignment operations"
+                ]
+            },
+            {
+                "name": "Drawing Module",
+                "items": [
+                    "Enable supervisor users to draw and edit geometry shapes on map and do selections based on these shapes"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "CATography Suite Admin Console (HTML5 version)",
+        "image": "",
+        "subheading": "Worked on CATography Suite Admin Console (HTML5 version) for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Bootstrap",
+            "Web API service hosted on Windows Service framework (Owin self-hosting)",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "User management",
+                "items": []
+            },
+            {
+                "name": "Client Database management",
+                "items": []
+            },
+            {
+                "name": "Client portfolio management",
+                "items": []
+            },
+            {
+                "name": "Client portfolio heatmap generation",
+                "items": []
+            },
+            {
+                "name": "Client portfolio density map generation",
+                "items": []
+            },
+            {
+                "name": "Client specific services management",
+                "items": []
+            },
+            {
+                "name": "Client application access, service access, notification access management",
+                "items": []
+            },
+            {
+                "name": "Global map layers creation, update, access management",
+                "items": [
+                    "Map layers include different types of files including xls, xlsx, mdb, accdb, json, geojson, csv, kml, kmz, shp and also WMS layers"
+                ]
+            }
+        ]
+    },
+    {
+        "heading": "CATography Risk Manager Application (HTML5 version)",
+        "image": "/rm_icon.png",
+        "subheading": "Worked on CATography Risk Manager Application (HTML5 version) for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Kendo UI",
+            "Bing maps V8 Web Control",
+            "Web API service hosted on Windows Service framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Developing service endpoints for showing global map layers",
+                "items": []
+            },
+            {
+                "name": "Showing global map layers configured for the client",
+                "items": []
+            },
+            {
+                "name": "Showing selection buffers from the global map layers",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Claims Application (HTML5 version)",
+        "image": "/Claims_html5_icon.png",
+        "subheading": "Worked on CATography Claims Application (HTML5 version) for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Kendo UI",
+            "Bing maps V8 Web Control",
+            "Web API service hosted on Windows Service framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Developing service endpoints for showing global map layers",
+                "items": []
+            },
+            {
+                "name": "Showing global map layers configured for the client",
+                "items": []
+            },
+            {
+                "name": "Showing selection buffers from the global map layers",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Underwriter Application (HTML5 version)",
+        "image": "/core-sl-landing-page-icon.png",
+        "subheading": "Worked on CATography Underwriter Application (HTML5 version) for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Kendo UI",
+            "Bing maps V8 Web Control",
+            "Web API service hosted on Windows Service framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing Client portfolio recorded policies and clusters on map",
+                "items": []
+            },
+            {
+                "name": "Developing various map tools (Line, Square, Polygon, Circle, Ring) for selection of records on the map",
+                "items": []
+            },
+            {
+                "name": "Showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Developing service endpoints for showing global map layers",
+                "items": []
+            },
+            {
+                "name": "Showing global map layers configured for the client",
+                "items": []
+            },
+            {
+                "name": "Showing selection buffers from the global map layers",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Workers' Compensation Application (HTML5 version)",
+        "image": "/comp_html5_icon.png",
+        "subheading": "Worked on CATography Workers' Compensation Application (HTML5 version) for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Kendo UI",
+            "Bing maps V8 Web Control",
+            "Web API service hosted on Windows Service framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Developing service endpoints for showing global map layers",
+                "items": []
+            },
+            {
+                "name": "Showing global map layers configured for the client",
+                "items": []
+            },
+            {
+                "name": "Showing selection buffers from the global map layers",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Insight",
+        "image": "/claimsinsight_icon.png",
+        "subheading": "Worked on CATography Insight application for Jardine Lloyd Thompson Re-Insurance (JLT Re), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net MVC, jQuery, HTML, CSS, Kendo UI",
+            "Birst (Business Intelligence Tool)",
+            "Web API service hosted on Windows Service framework",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Login Module",
+                "items": []
+            },
+            {
+                "name": "Showing client specific dashboards from Birst",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "Video Management System (OnSSI)",
+        "image": "",
+        "subheading": "Worked on Video Management System (VMS) plugin application for accessing services and video streams of On-Net Surveillance Systems, Inc. (OnSSI), USA for Galaxy Control Systems (GalaxySys), USA",
+        "technologies": [
+            "Windows Presentation Framework (WPF)",
+            "AxAuga media control (proprietary application of OnSSI)",
+            "OnSSI Ocularis SDK",
+            "Windows Sockets, Windows Services"
+        ],
+        "modules": [
+            {
+                "name": "Retrieving DVR related information from the OnSSI servers",
+                "items": []
+            },
+            {
+                "name": "Retrieving available cameras and their PTZ (Pan-Tilt-Zoom) capabilities",
+                "items": []
+            },
+            {
+                "name": "Save the above information via Galaxy System Software developed by GalaxySys",
+                "items": []
+            },
+            {
+                "name": "Show Live and recorded streams on AxAuga media controls",
+                "items": []
+            },
+            {
+                "name": "Executing PTZ commands - direct and preset",
+                "items": []
+            }      
+        ]
+    },
+    {
+        "heading": "Video Management System (Digital Watchdog)",
+        "image": "",
+        "subheading": "Worked on Video Management System (VMS) plugin application for accessing services and video streams of Digital Watchdog (DW), USA for Galaxy Control Systems (GalaxySys), USA",
+        "technologies": [
+            "Windows Presentation Framework (WPF)",
+            "VLC media control for WPF"
+        ],
+        "modules": [
+            {
+                "name": "Retrieving DVR related information from the Digital Watchdog servers",
+                "items": []
+            },
+            {
+                "name": "Retrieving available cameras and their PTZ (Pan-Tilt-Zoom) capabilities",
+                "items": []
+            },
+            {
+                "name": "Save the above information via Galaxy System Software developed by GalaxySys",
+                "items": []
+            },
+            {
+                "name": "Show Live and recorded streams on VLC media controls",
+                "items": []
+            },
+            {
+                "name": "Executing PTZ commands - direct and preset",
+                "items": []
+            }    
+        ]
+    },
+    {
+        "heading": "CATography Claims Administration Application (Silverlight version)",
+        "image": "",
+        "subheading": "Worked on CATography Claims Administration Application (Silverlight version) for Towers Watson Re-Insurance (TW), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net, Silverlight, Telerik controls for Silverlight",
+            "Bing maps Silverlight Control",
+            "WCF service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Client Database management",
+                "items": []
+            },
+            {
+                "name": "Client portfolio management",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Claims Application (Silverlight version)",
+        "image": "",
+        "subheading": "Worked on CATography Claims Application (Silverlight version) for Towers Watson Re-Insurance (TW), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net, Silverlight, Telerik controls for Silverlight",
+            "Bing maps Silverlight Control",
+            "WCF service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing client portfolio recorded policies and clusters on map",
+                "items": []
+            },
+            {
+                "name": "Developing various map tools (Line, Square, Polygon, Circle, Ring, Point-In-Polygon) for selection of records on the map",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Retrieving various types of hazard information like storm, hail, hurricane, earthquake",
+                "items": []
+            },
+            {
+                "name": "Show the hazard data on map and enable users to buffer on the shapes of the hazard data like wind swaths, earthquake zones etc.",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Risk Manager Administration Application (Silverlight version)",
+        "image": "",
+        "subheading": "Worked on CATography Risk Manager Administration Application (Silverlight version) for Towers Watson Re-Insurance (TW), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net, Silverlight, Telerik controls for Silverlight",
+            "Bing maps Silverlight Control",
+            "WCF service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "User management",
+                "items": []
+            },
+            {
+                "name": "Client Database management",
+                "items": []
+            },
+            {
+                "name": "Client portfolio management",
+                "items": []
+            },
+            {
+                "name": "Global map layers creation, update, access management",
+                "items": []
+            },
+            {
+                "name": "Map layers include different types of files including xls, xlsx, mdb, accdb, csv, kml, shp",
+                "items": []
+            }
+        ]
+    },
+    {
+        "heading": "CATography Risk Manager Application (Silverlight version)",
+        "image": "",
+        "subheading": "Worked on CATography Risk Manager Application (Silverlight version) for Towers Watson Re-Insurance (TW), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net, Silverlight, Telerik controls for Silverlight",
+            "Bing maps Silverlight Control",
+            "WCF service",
+            "SQL Server"
+        ],
+        "modules": [            
+            {
+                "name": "Showing client portfolio recorded policies and clusters on map",
+                "items": []
+            },
+            {
+                "name": "Developing various map tools (Line, Square, Polygon, Circle, Ring, Point-In-Polygon) for selection of records on the map",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Enabling users to upload files to show on the map in runtime",
+                "items": []
+            },
+            {
+                "name": "File types include xls, xlsx, mdb, accdb, kml, kmz, csv, shp",
+                "items": []
+            },
+            {
+                "name": "Save the custom layers as projects",
+                "items": []
+            },
+            {
+                "name": "Share projects between users",
+                "items": []
+            },
+            {
+                "name": "Showing globally configured layers",
+                "items": []
+            }   
+        ]
+    },
+    {
+        "heading": "CATography Workers' Compensation Application (Silverlight version)",
+        "image": "",
+        "subheading": "Worked on CATography Workers' Compensation Application (Silverlight version) for Towers Watson Re-Insurance (TW), USA on behalf of Localligence Inc. USA",
+        "technologies": [
+            "ASP.net, Silverlight, Telerik controls for Silverlight",
+            "Bing maps Silverlight Control",
+            "WCF service",
+            "SQL Server"
+        ],
+        "modules": [
+            {
+                "name": "Showing client portfolio recorded policies and clusters on the map",
+                "items": []
+            },
+            {
+                "name": "Developing various map tools (Line, Square, Polygon, Circle, Ring, Point-In-Polygon) for selection of records on the map",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio heatmaps",
+                "items": []
+            },
+            {
+                "name": "Generating and showing client portfolio density map",
+                "items": []
+            },
+            {
+                "name": "Showing various locations with different tiers of danger level to identify areas with potential loss",
+                "items": []
+            }
+        ]
+    }
+]

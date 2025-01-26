@@ -10,6 +10,14 @@ export default function Skills() {
   return (
     <>
       <p>
+      <h5>Core Competencies</h5>
+      <ul>
+        <li>.NET Core: 12+ years, including Web API, EF Core, and WPF</li>
+        <li>Frontend: Angular, ensuring dynamic and responsive user interfaces</li>
+        <li>Scripting: Python and Node.js for versatile development needs</li>
+        <li>Solution Design: Expertise in building scalable, maintainable, and secure applications</li>
+      </ul>
+      <hr />
         I have experience in a wide range of technologies, including:
       </p>
       {

@@ -66,10 +66,8 @@ export default function TopNavbar({onLinkChanged} : any) {
               onClick={() => onUpdateActiveLink("personal")}>
                 Personal Details
             </Nav.Link>
-            <Nav.Link href="#resume" 
-              className={activeLink === 'resume' ? 'active navbar-link' : 'navbar-link'}
-              onClick={() => onUpdateActiveLink("resume")}>
-                Resume
+            <Nav.Link href="/Amritendu_IT_Resume.docx" className='navbar-link' download target='_blank'>
+                Resume<img src='/download.png' alt="download" width={16} height={16} />
             </Nav.Link>
           </Nav>
         </Navbar.Collapse>

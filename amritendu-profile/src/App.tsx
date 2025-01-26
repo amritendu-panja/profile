@@ -43,8 +43,8 @@ function App() {
               </Row>
             </Card.Body>
             <Card.Footer>
-              <Row className="justify-content-md-center">
-                <Col md="auto">
+              <Row>
+                <Col>
                   <ContactMe />
                   <Footer />
                 </Col>

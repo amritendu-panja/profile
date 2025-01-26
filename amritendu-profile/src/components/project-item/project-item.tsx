@@ -3,7 +3,7 @@ import { Card } from "react-bootstrap";
 export default function ProjectItem(data: any) {
   return (
     <Card>
-        <Card.Header>{data.heading}</Card.Header>
+        <Card.Header><strong>{data.heading}</strong></Card.Header>
         <Card.Body>
             <Card.Title>{data.subheading}</Card.Title>
             <ul>
