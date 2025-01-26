@@ -1,4 +1,4 @@
-import { ListGroup, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import gmail from '/gmail.png';
 import outlook from '/outlook.png'
 import linkedin from '/linkedin.png'
