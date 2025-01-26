@@ -1,13 +1,13 @@
+import { Col, Row } from "react-bootstrap"
+
 export default function Footer() { 
   return (
     <footer className="footer m-3">
-      <div className="footer-container">
-        <div className="footer-content">
-          <p>
+      <Row className="justify-content-md-center">
+        <Col md="auto">          
             &copy; {new Date().getFullYear()} Amritendu Panja. All rights reserved.
-          </p>
-        </div>
-      </div>
+        </Col>
+      </Row>
     </footer>
   );
 }

@@ -17,7 +17,7 @@ export default function Projects() {
             {
               projectList.map((project, index) => (
                 <Accordion.Item eventKey={index.toString()} key={index}>
-                  <Accordion.Header>{project.heading}</Accordion.Header>
+                  <Accordion.Header><strong>{project.heading}</strong></Accordion.Header>
                   <Accordion.Body>
                     <p className="lead">{project.subheading}</p>
                     { project.image ? <Row><Col md="auto">Screen:</Col><Col md="auto"><img src={project.image} /></Col></Row> : null }                    
